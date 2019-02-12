@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="266013ee-6739-451c-a07e-a4e7fcea6196" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BalancedNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StrongNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StrongNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,11 +17,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BalancedNum.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BalancedNum.java">
+      <file leaf-file-name="StrongNumber.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StrongNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" selection-start-column="24" selection-end-column="24" />
+            <state relative-caret-position="180">
+              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StrongNumberTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/StrongNumberTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -29,8 +46,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -54,6 +71,10 @@
         <option value="$PROJECT_DIR$/src/test/java/JumpingNumberTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/DisariumNumber.java" />
         <option value="$PROJECT_DIR$/src/test/java/DisariumNumberTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BalancedNum.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BalancedNumTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StrongNumber.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StrongNumberTest.java" />
       </list>
     </option>
   </component>
@@ -155,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BalancedNumTest">
+  <component name="RunManager" selected="JUnit.StrongNumberTest">
     <configuration name="BalancedNumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -224,12 +245,12 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TidyNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StrongNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TidyNumberTest" />
+      <option name="MAIN_CLASS_NAME" value="StrongNumberTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -242,19 +263,19 @@
       <patterns />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TidyNumberTest" />
       <item itemvalue="JUnit.SpecialNumberTest" />
       <item itemvalue="JUnit.JumpingNumberTest" />
       <item itemvalue="JUnit.DisariumNumberTest" />
       <item itemvalue="JUnit.BalancedNumTest" />
+      <item itemvalue="JUnit.StrongNumberTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StrongNumberTest" />
         <item itemvalue="JUnit.BalancedNumTest" />
         <item itemvalue="JUnit.DisariumNumberTest" />
         <item itemvalue="JUnit.JumpingNumberTest" />
         <item itemvalue="JUnit.SpecialNumberTest" />
-        <item itemvalue="JUnit.TidyNumberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -308,6 +329,9 @@
     <history-entry file="DisariumNumberTest - 2019.02.12 at 08h 34m 13s.xml">
       <configuration name="DisariumNumberTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BalancedNumTest - 2019.02.12 at 08h 45m 18s.xml">
+      <configuration name="BalancedNumTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1693" y="7" width="1574" height="1000" extended-state="0" />
@@ -315,25 +339,25 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49867898" weight="0.32946634" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" sideWeight="0.49867898" visible="true" weight="0.32946634" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.501321" side_tool="true" weight="0.32946634" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4980185" visible="true" weight="0.32946634" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4980185" weight="0.32946634" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49867898" weight="0.32946634" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993395" weight="0.32946634" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22787318" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22787318" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="8" show_stripe_button="false" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39907193" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -361,6 +385,11 @@
     <MESSAGE value="Solution foe FindUniq Kata" />
     <MESSAGE value="Solution for SpecialNumber Kata" />
     <option name="LAST_COMMIT_MESSAGE" value="Solution for SpecialNumber Kata" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/TidyNumber.java">
@@ -531,7 +560,37 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/BalancedNum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BalancedNumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StrongNumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StrongNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
