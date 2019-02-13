@@ -5,9 +5,11 @@ public class EnglishBeggars {
     int count = 0;
     int [] wynik = new int[n];
     while (count < n){
-      for (int i = 0; i < values.length - 1;) {
-        wynik[count] += values[i+count];
-        i= i+n;
+      for (int i = 0; i < values.length;) {
+        while (i + count < values.length) {
+          wynik[count] += values[i + count];
+          i = i + n;
+        }
       }count++;
     }
     return wynik;
