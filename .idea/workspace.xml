@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="266013ee-6739-451c-a07e-a4e7fcea6196" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Clock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FindOutlier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ClockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FindOutlierTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EnglishBeggars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EnglishBeggarsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FindOutlier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindOutlier.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,20 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FindOutlier.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/FindOutlier.java">
+      <file leaf-file-name="EnglishBeggars.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/EnglishBeggars.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="180">
+              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindOutlierTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FindOutlierTest.java">
+      <file leaf-file-name="EnglishBeggarsTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/EnglishBeggarsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="240">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,6 +72,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Clock.java" />
         <option value="$PROJECT_DIR$/src/test/java/FindOutlierTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/FindOutlier.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EnglishBeggarsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EnglishBeggars.java" />
       </list>
     </option>
   </component>
@@ -84,8 +85,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1753" />
-    <option name="y" value="43" />
+    <option name="x" value="-28" />
     <option name="width" value="1574" />
     <option name="height" value="1000" />
   </component>
@@ -175,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FindOutlierTest">
+  <component name="RunManager" selected="JUnit.EnglishBeggarsTest">
     <configuration name="RomanNumerals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RomanNumerals" />
       <module name="CodeWars" />
@@ -214,6 +214,23 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="EnglishBeggarsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EnglishBeggarsTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="FindOutlierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -231,37 +248,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="RomanNumeralsTest.shouldConvertFromRoman" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RomanNumeralsTest" />
-      <option name="METHOD_NAME" value="shouldConvertFromRoman" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <list>
-      <item itemvalue="JUnit.RomanNumeralsTest.shouldConvertFromRoman" />
       <item itemvalue="Application.RomanNumerals" />
       <item itemvalue="JUnit.CockroachTest" />
       <item itemvalue="JUnit.ClockTest" />
       <item itemvalue="JUnit.FindOutlierTest" />
+      <item itemvalue="JUnit.EnglishBeggarsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EnglishBeggarsTest" />
         <item itemvalue="JUnit.FindOutlierTest" />
         <item itemvalue="JUnit.ClockTest" />
         <item itemvalue="JUnit.CockroachTest" />
         <item itemvalue="Application.RomanNumerals" />
-        <item itemvalue="JUnit.RomanNumeralsTest.shouldConvertFromRoman" />
       </list>
     </recent_temporary>
   </component>
@@ -287,12 +287,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RomanNumeralsTest_shouldConvertToRoman - 2019.02.13 at 10h 32m 52s.xml">
-      <configuration name="RomanNumeralsTest.shouldConvertToRoman" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanNumeralsTest - 2019.02.13 at 10h 33m 34s.xml">
-      <configuration name="RomanNumeralsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RomanNumeralsTest_shouldConvertFromRoman - 2019.02.13 at 10h 34m 19s.xml">
       <configuration name="RomanNumeralsTest.shouldConvertFromRoman" configurationId="JUnit" />
     </history-entry>
@@ -317,9 +311,15 @@
     <history-entry file="ClockTest - 2019.02.13 at 12h 27m 23s.xml">
       <configuration name="ClockTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FindOutlierTest - 2019.02.13 at 13h 47m 39s.xml">
+      <configuration name="FindOutlierTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindOutlierTest - 2019.02.13 at 13h 54m 59s.xml">
+      <configuration name="FindOutlierTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1753" y="43" width="1574" height="1000" extended-state="0" />
+    <frame x="-28" y="0" width="1574" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -805,8 +805,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FindOutlier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        <state relative-caret-position="220">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -814,6 +814,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EnglishBeggars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EnglishBeggarsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
