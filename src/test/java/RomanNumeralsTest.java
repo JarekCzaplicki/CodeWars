@@ -18,12 +18,12 @@ public class RomanNumeralsTest {
 
     @Test
     public void shouldConvertFromRoman() {
-        assertEquals("21", RomanNumerals.fromRoman("XXI"));
-        assertEquals("1", RomanNumerals.fromRoman("I"));
-        assertEquals("3", RomanNumerals.fromRoman("III"));
-        assertEquals("4", RomanNumerals.fromRoman("IV"));
-        assertEquals("2007", RomanNumerals.fromRoman("MMVII"));
-        assertEquals("1669", RomanNumerals.fromRoman("MDCLXIX"));
+        assertEquals(21, RomanNumerals.fromRoman("XXI"));
+        assertEquals(1, RomanNumerals.fromRoman("I"));
+        assertEquals(3, RomanNumerals.fromRoman("III"));
+        assertEquals(4, RomanNumerals.fromRoman("IV"));
+        assertEquals(2007, RomanNumerals.fromRoman("MMVII"));
+        assertEquals(1669, RomanNumerals.fromRoman("MDCLXIX"));
     }
 
 }

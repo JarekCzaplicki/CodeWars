@@ -32,6 +32,67 @@ public class RomanNumerals {
 
     public static int fromRoman(String roman){
         int number = 0;
+        String ix = "IX";
+        String iv = "IV";
+        Map<String, Integer> mapOfRomans = new LinkedHashMap<String, Integer>();
+        mapOfRomans.put("M", 1000);
+        mapOfRomans.put("CM", 900);
+        mapOfRomans.put("D",  500);
+        mapOfRomans.put("CD", 400);
+        mapOfRomans.put("C",  100);
+        mapOfRomans.put("XC", 90);
+        mapOfRomans.put("L",  50);
+        mapOfRomans.put("XL", 40);
+        mapOfRomans.put("X",  10);
+        mapOfRomans.put("IX", 9);
+        mapOfRomans.put("V",  5);
+        mapOfRomans.put("IV", 4);
+        mapOfRomans.put("I",  1);
+//"MDCLXIX" - 1669
+        StringBuilder rom = new StringBuilder(roman);
+//        System.out.println(rom.);
+        for (String s : mapOfRomans.keySet()) {
+            while (rom.toString().contains(s)&& rom.length()>2){
+                    number += mapOfRomans.get(s);
+//                System.out.println("W ciagu: " + rom + " znajduje się: " + s);
+                    String substring = rom.substring(s.length(), rom.length());
+                    rom.replace(0, roman.length(), substring);
+//                System.out.println("Substring: " + substring + "ma długość: " + substring.length());
+//                System.out.println("Zmienna rom: "+ rom.toString()+ "ma długość: " + rom.length());
+                }
+
+            while (rom.toString().contains(s)&& rom.length()<=2){
+                if (mapOfRomans.get(s)<10 && rom.length()==2){
+                    if (rom.toString().equals(ix)){
+                        number +=9;
+                        String substring = "";
+                        rom.replace(0, roman.length(), substring);
+
+                    }else if (rom.toString().equals(iv)){
+                        number +=4;
+                        String substring = "";
+                        rom.replace(0, roman.length(), substring);
+                    }else {
+                        number += mapOfRomans.get(s);
+                        String substring = rom.substring(s.length(), rom.length());
+                        rom.replace(0, roman.length(), substring);
+                    }
+                }
+            }
+        }
+
+
         return number;
+    }
+
+    public static void main(String[] args) {
+//        assertEquals("21", RomanNumerals.fromRoman("XXI"));
+//        assertEquals("1", RomanNumerals.fromRoman("I"));
+//        assertEquals("3", RomanNumerals.fromRoman("III"));
+//        assertEquals("4", RomanNumerals.fromRoman("IV"));
+//        assertEquals("2007", RomanNumerals.fromRoman("MMVII"));
+//        assertEquals("1669", RomanNumerals.fromRoman("MDCLXIX"));
+        System.out.println(fromRoman("I"));
+
     }
 }
